@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="#-about-me">👨‍💻 About Me</a> &nbsp;|&nbsp;
-  <a href="<!-- TODO: add your resume link -->">📄 Resume</a> &nbsp;|&nbsp;
+  <!-- <a href="TODO: add your resume link">📄 Resume</a> &nbsp;|&nbsp; -->
   <a href="mailto:sravanibhamidipaty@gmail.com">✉️ Email</a> &nbsp;|&nbsp;
   <a href="https://linkedin.com/in/sravani-bhamidipaty">🔗 LinkedIn</a>
 </p>
