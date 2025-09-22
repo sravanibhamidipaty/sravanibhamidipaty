@@ -19,6 +19,10 @@
   <a href="https://linkedin.com/in/sravani-bhamidipaty">🔗 LinkedIn</a>
 </p>
 
+<!--<p align="center">
+  ![Profile Views](https://komarev.com/ghpvc/?username=sravanibhamidipaty&style=flat-square&color=blue)
+</p>-->
+
 ---
 
 ## 👩‍💻 About Me
@@ -50,11 +54,55 @@ def about_me():
 if __name__ == "__main__":
     about_me()
  ```
+---
+
+## 🏗️ Projects  
+
+#### **Advanced Software Engineering (Walmart USA)**  
+**Description:** This repository contains a collection of advanced software engineering projects to support the Walmart shipping and data processing teams, including a custom priority queue, a flexible data processor, a database schema for pet departments, and a shipping data ETL script.  
+
+**Technologies Used:** Python, Java, PostgreSQL, Redis, Elastic, UML, SQLite.  
+
+**Key Features/Learnings:**  
+* Designed a custom **Power-of-Two Max Heap** in Java.  
+* Modeled a reconfigurable data processing pipeline using **UML**.  
+* Created a normalized relational schema for a pet department using an **ERD**.  
+* Developed a Python script for an **ETL pipeline** to process shipping data and load it into an SQLite database.  
+
+**Link to GitHub Repository:** [`software-engineering-walmart`](https://github.com/sravanibhamidipaty/software-engineering-walmart)  
+
+---
+
+#### **AI-Powered X-Ray Classification**  
+**Description:** A deep learning project that fine-tunes a pre-trained ResNet-18 model to classify chest X-ray images as either NORMAL or PNEUMONIA. This project demonstrates the efficiency of **transfer learning** for medical image analysis.  
+
+**Technologies Used:** Python, PyTorch, torchvision, torchmetrics.  
+
+**Key Features/Learnings:**  
+* Successfully adapted a pre-trained model for a new binary classification task by modifying and training only the final layer.  
+* Implemented a **holdout validation** strategy to prevent overfitting on the small dataset.  
+* The model achieved a **test accuracy of 0.580** and a **test F1-score of 0.704**.  
+
+**Link to GitHub Repository:** [`classifying-x-ray-images-using-pytorch`](https://github.com/sravanibhamidipaty/classifying-x-ray-images-using-pytorch)  
+
+---
+
+#### **Software Engineering (Wells Fargo)**  
+**Description:** A backend system for managing financial advisors and their clients' portfolios. The system is built with **Spring Boot** and uses the **Java Persistence API (JPA)** for data persistence.  
+
+**Technologies Used:** Java 17+, Spring Boot, JPA, PostgreSQL, H2, Maven.  
+
+**Key Features/Learnings:**  
+* Modeled a relational database schema using an **Entity Relationship Diagram (ERD)** to define the relationships between financial advisors, clients, portfolios, and securities.  
+* Developed a system that enables financial advisors to perform CRUD (Create, Read, Update, Delete) operations on clients and securities.  
+
+**Link to GitHub Repository:** [`software-engineering-wells-fargo`](https://github.com/sravanibhamidipaty/software-engineering-wells-fargo)  
 
 ---
 ## 🏆 LeetCode Stats
 <p align="center"> <!-- Heatmap --> <img src="https://leetcard.jacoblin.cool/sravanibhamidipaty?theme=dark&font=Baloo%202&ext=heatmap" alt="LeetCode Card" /> </p> <p align="center"> <a href="https://leetcode.com/sravanibhamidipaty">Check out my LeetCode profile →</a> </p>
 
+---
 ## 📈 GitHub Stats
 
 <!--<p align="center">
@@ -68,6 +116,7 @@ if __name__ == "__main__":
 <!--<p align="center">
   <img src="https://streak-stats.demolab.com?user=sravanibhamidipaty&theme=radical" alt="GitHub Streak" />
 </p>-->
+---
 
 ## 🚀 Tech Stack  
 
