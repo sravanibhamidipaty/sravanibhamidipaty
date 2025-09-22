@@ -81,7 +81,8 @@ if __name__ == "__main__":
 **Key Features/Learnings:**  
 * Successfully adapted a pre-trained model for a new binary classification task by modifying and training only the final layer.  
 * Implemented a **holdout validation** strategy to prevent overfitting on the small dataset.  
-* The model achieved a **test accuracy of 0.580** and a **test F1-score of 0.704**.  
+* The model achieved a **test accuracy of 0.580** and a **test F1-score of 0.704**. While these results were limited by the small dataset, the project successfully demonstrated the potential of transfer learning for medical image analysis.
+
 
 **Link to GitHub Repository:** [`classifying-x-ray-images-using-pytorch`](https://github.com/sravanibhamidipaty/classifying-x-ray-images-using-pytorch)  
 
