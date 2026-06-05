@@ -8,10 +8,12 @@
 
 <p align="center">
   <a href="https://readme-typing-svg.demolab.com/demo/">
-    <img src="https://readme-typing-svg.demolab.com?duration=2500&pause=800&center=true&vCenter=true&width=600&lines=Software+Engineer+%40+Grainger;Graduate+TA+%7C+MSCS+%40+Georgia+Tech+(AI);Building+MLOps+platforms+end-to-end;Human-centered%2C+production-ready+AI;Open Source Software Contributor" alt="Typing SVG" />
+    <img
+      src="https://readme-typing-svg.demolab.com?duration=2500&pause=800&center=true&vCenter=true&width=600&lines=Software+Engineer+%40+Grainger;Graduate+TA+%7C+MSCS+%40+Georgia+Tech+%28AI%29;Building+MLOps+platforms+end-to-end;Human-centered%2C+production-ready+AI;Open+Source+Software+Contributor"
+      alt="Typing SVG"
+    />
   </a>
 </p>
-
 <p align="center">
   <!--<a href="#-about-me">👨‍💻 About Me</a> &nbsp;|&nbsp;-->
   <!-- <a href="https://drive.google.com/file/d/13BsAvlclfenGVblK8O3qcS1RhP4pxNEg/view?usp=sharing">📄 Resume</a> &nbsp;|&nbsp; -->
