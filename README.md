@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://readme-typing-svg.demolab.com/demo/">
-    <img src="https://readme-typing-svg.demolab.com?duration=2500&pause=800&center=true&vCenter=true&width=600&lines=Software+Engineer+%40+Grainger;Graduate+TA+%7C+MSCS+%40+Georgia+Tech+(AI);Building+MLOps+platforms+end-to-end;Human-centered%2C+production-ready+AI" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?duration=2500&pause=800&center=true&vCenter=true&width=600&lines=Software+Engineer+%40+Grainger;Graduate+TA+%7C+MSCS+%40+Georgia+Tech+(AI);Building+MLOps+platforms+end-to-end;Human-centered%2C+production-ready+AI;Open Source Software Contributor" alt="Typing SVG" />
   </a>
 </p>
 
