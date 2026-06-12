@@ -58,48 +58,31 @@ if __name__ == "__main__":
  ```
 ---
 
-## 🏗️ Projects  
+## 🏗️ Featured Projects
 
-#### **Advanced Software Engineering (Walmart USA)**  
-**Description:** This repository contains a collection of advanced software engineering projects to support the Walmart shipping and data processing teams, including a custom priority queue, a flexible data processor, a database schema for pet departments, and a shipping data ETL script.  
+#### **[Mock Payment Gateway API](https://github.com/sravanibhamidipaty/mock-payment-gateway-api)**
+The architecture Stripe and Adyen use to handle money at scale — implemented end-to-end. Solves the hard problem: **a single click must never charge a customer twice**, even under retries, double-submits, or mid-flight crashes.
 
-**Technologies Used:** Python, Java, PostgreSQL, Redis, Elastic, UML, SQLite.  
+**Technologies Used:** Python · FastAPI · Kafka · Redis · PostgreSQL · Docker · Prometheus · Grafana · GitHub Actions
 
-**Key Features/Learnings:**  
-* Designed a custom **Power-of-Two Max Heap** in Java.  
-* Modeled a reconfigurable data processing pipeline using **UML**.  
-* Created a normalized relational schema for a pet department using an **ERD**.  
-* Developed a Python script for an **ETL pipeline** to process shipping data and load it into an SQLite database.  
-
-**Link to GitHub Repository:** [`software-engineering-walmart`](https://github.com/sravanibhamidipaty/software-engineering-walmart)  
-
----
-
-#### **AI-Powered X-Ray Classification**  
-**Description:** A deep learning project that fine-tunes a pre-trained ResNet-18 model to classify chest X-ray images as either NORMAL or PNEUMONIA. This project demonstrates the efficiency of **transfer learning** for medical image analysis.  
-
-**Technologies Used:** Python, PyTorch, torchvision, torchmetrics.  
-
-**Key Features/Learnings:**  
-* Successfully adapted a pre-trained model for a new binary classification task by modifying and training only the final layer.  
-* Implemented a **holdout validation** strategy to prevent overfitting on the small dataset.  
-* The model achieved a **test accuracy of 0.580** and a **test F1-score of 0.704**. While these results were limited by the small dataset, the project successfully demonstrated the potential of transfer learning for medical image analysis.
-
-
-**Link to GitHub Repository:** [`classifying-x-ray-images-using-pytorch`](https://github.com/sravanibhamidipaty/classifying-x-ray-images-using-pytorch)  
+**Key Design Decisions:**
+* API deduplicates via Redis (`O(1)` idempotency-key lookup, 24h TTL) and returns `202 Accepted` instantly — the user never waits on the DB
+* Kafka decouples ingestion from processing; write path stays fast, worker scales independently
+* Background worker persists charges transactionally, fires webhooks with **exponential backoff + Dead Letter Queue** — no accepted payment is silently lost
+* Production-grade observability: Prometheus metrics, liveness/readiness probes, structured JSON logging, pre-provisioned Grafana dashboard
+* Full CI: `ruff`, `black`, `mypy`, async unit tests + **Testcontainers** integration tests against real PostgreSQL
 
 ---
 
-#### **Software Engineering (Wells Fargo)**  
-**Description:** A backend system for managing financial advisors and their clients' portfolios. The system is built with **Spring Boot** and uses the **Java Persistence API (JPA)** for data persistence.  
+#### **[Mac Observability Stack (productivity-lgtm)](https://github.com/sravanibhamidipaty/productivity-lgtm)**
+Event-driven macOS telemetry agent that replaces CPU-heavy polling with Apple's native `NSWorkspace` OS hooks. **Zero idle CPU overhead** — the agent sleeps until the kernel fires a window-switch event, then captures workspace activity and deep-linked browser context.
 
-**Technologies Used:** Java 17+, Spring Boot, JPA, PostgreSQL, H2, Maven.  
+**Technologies Used:** Python · AppKit · NSWorkspace · Grafana · Loki · Mimir · Tempo · Docker Compose
 
-**Key Features/Learnings:**  
-* Modeled a relational database schema using an **Entity Relationship Diagram (ERD)** to define the relationships between financial advisors, clients, portfolios, and securities.  
-* Developed a system that enables financial advisors to perform CRUD (Create, Read, Update, Delete) operations on clients and securities.  
-
-**Link to GitHub Repository:** [`software-engineering-wells-fargo`](https://github.com/sravanibhamidipaty/software-engineering-wells-fargo)  
+**Key Design Decisions:**
+* Observer Pattern via `NSWorkspaceDidActivateApplicationNotification` — wakes only on kernel-broadcast events
+* Async AppleScript subprocess extracts active Chrome tab URL and maps it to a productivity category
+* Full LGTM backend (Loki for logs, Mimir for metrics, Tempo for traces) — all containerized with persistent Docker volumes
 
 ---
 ## 🏆 LeetCode Stats
