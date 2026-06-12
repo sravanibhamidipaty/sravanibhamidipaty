@@ -84,6 +84,16 @@ Event-driven macOS telemetry agent that replaces CPU-heavy polling with Apple's 
 * Async AppleScript subprocess extracts active Chrome tab URL and maps it to a productivity category
 * Full LGTM backend (Loki for logs, Mimir for metrics, Tempo for traces) — all containerized with persistent Docker volumes
 
+#### **[Open Source Contribution — golang/go](https://github.com/sravanibhamidipaty/open-source-software-contributions)**
+Fixed a bug in the **Go standard library** (`crypto/x509.VerifyHostname`) where zone-scoped IPv6 addresses like `fe80::1%eth0` were incorrectly falling through to DNS name matching instead of IP matching, breaking TLS certificate verification on link-local IPv6 networks.
+
+**Technologies Used:** Go · `crypto/x509` · `net/netip` · Gerrit code review
+
+**Key Details:**
+* Root cause: `net.ParseIP` returns `nil` for zone-scoped IPv6 — fixed by switching to `netip.ParseAddr` with `.WithZone("")` before SAN comparison
+* Patch reviewed and approved by Go core maintainers (Roland Shoemaker, Daniel McCarney); CI (LUCI-TryBot) passed
+* **Merged into `golang/go` master** — [commit 6a8455f](https://github.com/golang/go/commit/6a8455f), June 2026
+
 ---
 ## 🏆 LeetCode Stats
 <p align="center"> <!-- Heatmap --> <img src="https://leetcard.jacoblin.cool/sravanibhamidipaty?theme=dark&font=Baloo%202&ext=heatmap" alt="LeetCode Card" /> </p> <p align="center"> <a href="https://leetcode.com/sravanibhamidipaty">Check out my LeetCode profile →</a> </p>
