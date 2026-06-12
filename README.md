@@ -84,6 +84,8 @@ Event-driven macOS telemetry agent that replaces CPU-heavy polling with Apple's 
 * Async AppleScript subprocess extracts active Chrome tab URL and maps it to a productivity category
 * Full LGTM backend (Loki for logs, Mimir for metrics, Tempo for traces) — all containerized with persistent Docker volumes
 
+---
+
 #### **[Open Source Contribution — golang/go](https://github.com/sravanibhamidipaty/open-source-software-contributions)**
 Fixed a bug in the **Go standard library** (`crypto/x509.VerifyHostname`) where zone-scoped IPv6 addresses like `fe80::1%eth0` were incorrectly falling through to DNS name matching instead of IP matching, breaking TLS certificate verification on link-local IPv6 networks.
 
