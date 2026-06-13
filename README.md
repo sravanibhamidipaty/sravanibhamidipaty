@@ -60,6 +60,20 @@ if __name__ == "__main__":
 
 ## 🏗️ Featured Projects
 
+#### **[PharmaDocs AI](https://github.com/sravanibhamidipaty/pharma-document-intelligence)** · [🤗 Live Demo](https://huggingface.co/spaces/sravanib/PharmaDocs-AI)
+End-to-end RAG pipeline for pharmaceutical document intelligence — ingests multi-document SDF blobs (certificates, specs, BSE/TSE declarations), classifies 7 document types, and answers compliance questions with source citations and confidence scores.
+
+**Technologies Used:** Python · FAISS · BM25 · LlamaIndex · Groq (Llama 3.3 70B) · Sentence Transformers · Cross-Encoder Reranking · Gradio · HuggingFace Spaces
+
+**Key Design Decisions:**
+* Hybrid retrieval: FAISS dense search + BM25 keyword search → cross-encoder reranking — +15% Recall@3 vs vector-only
+* Keyword-based document classifier (zero LLM cost, ~0ms latency, 90%+ accuracy on structured pharma docs)
+* Tesseract OCR fallback with adaptive thresholding for scanned pages
+* Built-in evaluation suite: Recall@K, MRR, Precision@K, keyword match, and latency benchmarks
+* 100% citation accuracy — model instructed to abstain rather than hallucinate
+
+---
+
 #### **[Mock Payment Gateway API](https://github.com/sravanibhamidipaty/mock-payment-gateway-api)**
 The architecture Stripe and Adyen use to handle money at scale — implemented end-to-end. Solves the hard problem: **a single click must never charge a customer twice**, even under retries, double-submits, or mid-flight crashes.
 
