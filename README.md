@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://readme-typing-svg.demolab.com/demo/">
     <img
-      src="https://readme-typing-svg.demolab.com?duration=2500&pause=800&center=true&vCenter=true&width=600&lines=Software+Engineer+%40+Grainger;Graduate+TA+%7C+MSCS+%40+Georgia+Tech+%28AI%29;Building+MLOps+platforms+end-to-end;Human-centered%2C+production-ready+AI;Open+Source+Software+Contributor;AI-ALOE+HCI+Researcher "
+      src="https://readme-typing-svg.demolab.com?duration=2500&pause=800&center=true&vCenter=true&width=600&lines=Software+Engineer+%40+Grainger;Instructional+Associate+%7C+MSCS+%40+Georgia+Tech+%28AI%29;Building+MLOps+platforms+end-to-end;Human-centered%2C+production-ready+AI;Open+Source+Software+Contributor;AI-ALOE+HCI+Researcher;Tech+Fellow+(Applied+AI+Engineering)+%40+Codepath"
       alt="Typing SVG"
     />
   </a>
@@ -116,18 +116,12 @@ Fixed a bug in the **Go standard library** (`crypto/x509.VerifyHostname`) where 
 
 ---
 ## 📈 GitHub Stats
-
-<!--<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sravanibhamidipaty&show_icons=true&theme=radical" alt="GitHub Stats" />
-</p>-->
-
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sravanibhamidipaty&layout=compact&theme=radical" alt="Top Languages" />
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sravanibhamidipaty&theme=github_dark"
+    alt="GitHub Profile Summary"
+  />
 </p>
-
-<!--<p align="center">
-  <img src="https://streak-stats.demolab.com?user=sravanibhamidipaty&theme=radical" alt="GitHub Streak" />
-</p>-->
 ---
 
 ## 🚀 Tech Stack  
