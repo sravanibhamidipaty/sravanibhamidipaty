@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://readme-typing-svg.demolab.com/demo/">
     <img
-      src="https://readme-typing-svg.demolab.com?duration=2500&pause=800&center=true&vCenter=true&width=600&lines=Software+Engineer+%40+Grainger;Instructional+Associate+%7C+MSCS+%40+Georgia+Tech+%28AI%29;Building+MLOps+platforms+end-to-end;Human-centered%2C+production-ready+AI;Open+Source+Software+Contributor;AI-ALOE+HCI+Researcher;Tech+Fellow+(Applied+AI+Engineering)+%40+Codepath"
+      src="https://readme-typing-svg.demolab.com?duration=2500&pause=800&center=true&vCenter=true&width=600&lines=Software+Engineer+%40+Grainger;Instructional+Associate+%7C+MSCS+%40+Georgia+Tech+%28AI%29;Building+MLOps+platforms+end-to-end;Human-centered%2C+production-ready+AI;Open+Source+Software+Contributor;Tech+Fellow+(Applied+AI+Engineering)+%40+Codepath"
       alt="Typing SVG"
     />
   </a>
