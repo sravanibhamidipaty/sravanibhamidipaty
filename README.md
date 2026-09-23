@@ -17,7 +17,7 @@
 <p align="center">
   <!--<a href="#-about-me">👨‍💻 About Me</a> &nbsp;|&nbsp;-->
   <!-- <a href="https://drive.google.com/file/d/13BsAvlclfenGVblK8O3qcS1RhP4pxNEg/view?usp=sharing">📄 Resume</a> &nbsp;|&nbsp; -->
-  <a href="mailto:sravanibhamidipaty@gmail.com">✉️ Email</a> &nbsp;|&nbsp;
+  <a href="mailto:sravanibhamidipaty4@gmail.com">✉️ Email</a> &nbsp;|&nbsp;
   <a href="https://linkedin.com/in/sravani-bhamidipaty">🔗 LinkedIn</a>
 </p>
 
@@ -31,7 +31,7 @@
  ```python
 __author__ = "Sravani Bhamidipaty"
 __location__ = "Chicago, IL"
-__email__ = "sravanibhamidipaty@gmail.com"
+__email__ = "sravanibhamidipaty4@gmail.com"
 
 stacks = {
     "Languages": ["Python", "Java", "C++", "JavaScript", "SQL"],
